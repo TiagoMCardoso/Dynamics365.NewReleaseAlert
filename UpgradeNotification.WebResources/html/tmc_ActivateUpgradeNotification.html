@@ -1,0 +1,71 @@
+﻿<html>
+<head>
+    <title>Dynamics 365 Upgrade Notification</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="ClientGlobalContext.js.aspx"></script>
+    <script type="text/javascript" src="../WebResources/tmc_ActivateUpgradeNotification.js"></script>
+    <link rel="stylesheet" href="../WebResources/tmc_ActivateUpgradeNotification.css">
+
+    <!--JQuery and Bootstrap Libraries-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" language="javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+</head>
+<body style="word-wrap: break-word;" onload="UpgradeNotification.CheckIfFirstUpgradeHistoryIsAlreadyCreated();">
+    <div class="main">
+        <h2>Dynamics 365 New Release Alert</h2>
+        <br>
+        <br>
+        <div class="container">
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <td class="col-sm-1"></td>
+                        <td class="col-sm-5"></td>
+                        <td class="col-sm-1"></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div class="ui-widget">
+                                <button type="submit" id="btnActivate" class="btn btn-lg btn-block btn-success" onclick="UpgradeNotification.ActiveUpgradeNotificationOnClick();" style="font-size:18px">
+                                    Activate
+                                </button>
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="center">
+                            <div id="processing" class="processing">
+                                <br />
+                                <div id="loader" name="loader" class="loader"></div>
+                                <h4>Processing...</h4>
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+            <div id="errorBox" class="alert alert-danger" role="alert" style="display:none">
+                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                <span class="sr-only">Error:</span>
+                <span id="errorMessage"></span>
+            </div>
+        </div>
+        <div id="firstNotificationHistoryAlreadyCreated" style="display:none">
+            <p class="activated"><span class="glyphicon glyphicon-ok"></span>  Good news! Your organisation is already set to be notified when a new release is applied!</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.WebResources\bin\Debug\netstandard2.0\UpgradeNotification.WebResources.deps.json
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.WebResources\bin\Debug\netstandard2.0\UpgradeNotification.WebResources.dll
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.WebResources\bin\Debug\netstandard2.0\UpgradeNotification.WebResources.pdb
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.WebResources\obj\Debug\netstandard2.0\UpgradeNotification.WebResources.csprojAssemblyReference.cache
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.WebResources\obj\Debug\netstandard2.0\UpgradeNotification.WebResources.csproj.CoreCompileInputs.cache
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.WebResources\obj\Debug\netstandard2.0\UpgradeNotification.WebResources.AssemblyInfoInputs.cache
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.WebResources\obj\Debug\netstandard2.0\UpgradeNotification.WebResources.AssemblyInfo.cs
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.WebResources\obj\Debug\netstandard2.0\UpgradeNotification.WebResources.dll
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.WebResources\obj\Debug\netstandard2.0\UpgradeNotification.WebResources.pdb

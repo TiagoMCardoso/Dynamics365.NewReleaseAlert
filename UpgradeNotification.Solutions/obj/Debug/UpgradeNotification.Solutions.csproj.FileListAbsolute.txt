@@ -1,0 +1,6 @@
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.Solutions\bin\Debug\UpgradeNotification.Solutions.dll
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.Solutions\bin\Debug\UpgradeNotification.Solutions.pdb
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.Solutions\obj\Debug\UpgradeNotification.Solutions.csprojAssemblyReference.cache
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.Solutions\obj\Debug\UpgradeNotification.Solutions.csproj.CoreCompileInputs.cache
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.Solutions\obj\Debug\UpgradeNotification.Solutions.dll
+C:\Users\tiago.cardoso\source\repos\NewReleaseAlert\UpgradeNotification.Solutions\obj\Debug\UpgradeNotification.Solutions.pdb
